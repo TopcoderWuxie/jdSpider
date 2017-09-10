@@ -3,10 +3,10 @@
 
 使用scrapy爬取京东图书销售信息。
 
-爬取起始链接（http://book.jd.com/booktop/0-0-0.html?category=1713-0-0-0-10001-1#comfort）
+爬取起始链接（ http://book.jd.com/booktop/0-0-0.html?category=1713-0-0-0-10001-1#comfort ）
 
 每个商品的价格是通过Ajax动态加载的，如下所示：
-获取价格的链接（http://p.3.cn/prices/mgets?skuIds=J_(书本id)）。书本id是从网页中获取到的。
+获取价格的链接（ http://p.3.cn/prices/mgets?skuIds=J_(书本id) ）。书本id是从网页中获取到的。
 
 ### 爬取到的数据分析（根据前端显示样式进行分块处理）：
 
