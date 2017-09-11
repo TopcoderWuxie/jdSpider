@@ -37,4 +37,10 @@ requests请求过多，每次请求完毕以后没有关闭，使用requests.ses
 
   - TypeError: 'unicode' object does not support item assignment
 
-最后把所有非NoneType的字段都转化为str，使用unicode之前从没有遇到过这种错误，今天第一次，具体的解决方法还没找到。
+把所有非NoneType的字段都转化为str，使用unicode之前从没有遇到过这种错误，今天第一次，具体的解决方法还没找到。
+
+### 数据获取
+
+百度云盘链接：http://pan.baidu.com/s/1nvwYcAl 密码：7chn
+
+具体的每个字段的含义可以通过items.py获取。
