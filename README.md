@@ -9,7 +9,7 @@ python-selenium
 
 通过京东搜索页面，用selenium模拟浏览器，实现对输入的商品进行搜索，爬取商品链接
 
-京东搜索页面的初始url( ![](https://search.jd.com/) )
+京东搜索页面的初始url(https://search.jd.com/)
 
 ### 爬取过程中遇到的问题
 
@@ -17,7 +17,7 @@ python-selenium
 
 在爬取过程中发现在页面跳转的时候，总是会出现这个问题，后来找到了问题的具体原因，可以参见这个博客，讲解的很详细。
 
-相关博客链接( ![](https://huilansame.github.io/huilansame.github.io/archivers/exceptions-StaleElementReferenceException) )
+相关博客链接(https://huilansame.github.io/huilansame.github.io/archivers/exceptions-StaleElementReferenceException)
 
 - 多线程中数据发生覆盖
 
