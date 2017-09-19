@@ -1,5 +1,7 @@
 #coding: utf-8
 
+# 多线程爬取
+
 import sys
 import time
 import datetime
