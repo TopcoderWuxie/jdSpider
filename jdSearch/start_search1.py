@@ -1,5 +1,7 @@
 #coding: utf-8
 
+# 单个线程爬取
+
 import sys
 import time
 import datetime
